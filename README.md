@@ -1,6 +1,6 @@
 # **E-Commerce Churn Classification and Data Analysis**
 
-#### contributor : Anastasia Istimedelin & Kennaldy Lukman
+#### Contributor : Anastasia Istimedelin & Kennaldy Lukman
 
 
 ## **Business Problem Understanding**
@@ -233,3 +233,12 @@ Model machine learning kita, dengan nilai f2-score yang sangat tinggi (**99.26%*
   Beberapa faktor boleh dihapus dari modeling, seperti **CouponUsed, PreferedPaymentMode dan OrderAmountHikeFromLastYear**, karena tidak berpengaruh besar terhadap performa model kita.
 3. **Kekurangan Kuantitas Data**<br>
   Model kita membutuhkan data yang lebih banyak. Dataset kita hanya memiliki 5630 data. Dataset yang lebih besar boleh menciptakan sebuah model yang lebih akurat.
+
+## **Penjelasan File**
+Ada beberapa file yang terdapat di repository ini:
+1. E_Commerce_Churn_Classification_and_Data_Analysis.ipynb - Jupyter notebook dimana keseluruhan projek dikerjakan, mulai dari Problem Understanding sampai dengan Rekomendasi.
+2. E Commerce Dataset.xlsx - data raw dalam format Excel
+3. E_Commerce_Dataset.csv - data raw dalam format csv (data raw diconvert ke csv)
+4. CleanEcommerceChurn.csv - data yang sudah diclean. Proses cleaning semua dijelaskan di file notebook
+5. Final Model_Pickled.sav - model yang paling akurat dari projek. Proses membuat model ini dijelaskan di file notebook
+
